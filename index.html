@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <div class="container">
+
+            <div class="value-input-box">
+                <h1>Cashier App</h1>
+                <h4>This will tell you the minimum required notes</h4>
+                <p id="errormsg"></p>
+                <input type="text" placeholder="Enter Bill Value" id="bill-amount" class="billinput" required>
+                <input type="text" placeholder="Enter Cash Recieved" id="cash-give" class="cashinput" required>
+                <button type="submit" id="checkk" onclick="consoleme()" class="checkbtn">Check</button>
+            </div>
+
+            <div class="notestable">
+                <table>
+                    <h2>Notes Required</h2>
+                    <tr>
+                        <th>No of Notes</th>
+                        <td class="notesRequiredtd"></td>
+                        <td class="notesRequiredtd"></td>
+                        <td class="notesRequiredtd"></td>
+                        <td class="notesRequiredtd"></td>
+                        <td class="notesRequiredtd"></td>
+                        <td class="notesRequiredtd"></td>
+                        <td class="notesRequiredtd"></td>
+                        <td class="notesRequiredtd"></td>
+                        <td class="notesRequiredtd"></td>
+                    </tr>
+                    <tr>
+                        <th>Note</th>
+                        <td>2000</td>
+                        <td>500</td>
+                        <td>200</td>
+                        <td>100</td>
+                        <td>50</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>1</td>                
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <script src="script.js" async defer></script>
+    </body>
+
+</html>

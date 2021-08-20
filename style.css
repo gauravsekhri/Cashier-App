@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #cdcdcd;
+}
+
+.value-input-box{
+    width: 400px;
+    padding: 30px;
+    border: 1px solid grey;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #2424246e;
+    color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#errormsg{
+    width: 100%;
+    background-color: #f17a7a;
+    color: #832929;
+    /* padding: 10px; */
+}
+
+.billinput{
+    width: 70%;
+    margin: 30px auto 10px auto;
+    padding: 5px;
+    font-size: 17px;
+    outline: 0;
+}
+
+.cashinput{
+    width: 70%;
+    margin: 10px auto 30px auto;
+    padding: 5px;
+    font-size: 17px;
+    outline: 0;
+}
+
+.checkbtn{
+    width: 100%;
+    border: 1px solid grey;
+    width: 290px;
+    padding: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.checkbtn:hover{
+    background-color: #cdcdcd;
+}
+
+.notestable{
+    background-color: #2424246e;
+    margin: 50px auto 20px auto;
+    text-align: center;
+    width: 75%;
+    padding: 10px 15px 15px 30px;
+}
+
+table{
+    border: 1px solid black;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+th, td{
+    padding: 10px 20px;
+    border: 1px solid black;
+    text-align: center;
+}
